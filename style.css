@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+}
+.elem {
+  width: 200px;
+  height: 200px;
+  resultado: ;
+}
+.square1 {
+  background: rgba(255, 0, 0, 0.5);
+}
+.square2 {
+  background: rgba(0, 255, 0, 0.5);
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.square3 {
+  background: rgba(0, 0, 255, 0.5);
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.squaretwo {
+  padding-top: 60px;
+}
+.square4 {
+  background: rgba(255, 0, 0, 0.5);
+}
+.square5 {
+  background: rgba(0, 255, 0, 0.5);
+  position: absolute;
+  left: 25px;
+  top: 320px;
+}
+.square6 {
+  background: rgba(0, 0, 255, 0.5);
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  z-index: -1;
+}
